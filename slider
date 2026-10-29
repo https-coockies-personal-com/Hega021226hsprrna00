@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página con efecto caótico</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <button id="chaos-toggle" class="toggle-btn">Activar caos</button>
+
+    <header class="hero">
+      <span class="badge">Diseño experimental</span>
+      <h1>Mi página con efecto visual</h1>
+      <p>
+        Esta página tiene tarjetas, cabecera y botón para activar un efecto
+        aleatorio de movimiento y giro.
+      </p>
+    </header>
+
+    <main class="contenedor">
+      <article class="card">
+        <div class="icon">1</div>
+        <h2>Sección 1</h2>
+        <p>
+          Aquí puedes poner una introducción, un anuncio, un producto o contenido
+          principal.
+        </p>
+      </article>
+
+      <article class="card">
+        <div class="icon">2</div>
+        <h2>Sección 2</h2>
+        <p>
+          Esta tarjeta puede ser una noticia, una estadística o una presentación
+          visual.
+        </p>
+      </article>
+
+      <article class="card">
+        <div class="icon">3</div>
+        <h2>Sección 3</h2>
+        <p>
+          Puedes cambiar el texto por cualquier cosa que quieras mostrar en tu web.
+        </p>
+      </article>
+
+      <article class="card">
+        <div class="icon">4</div>
+        <h2>Sección 4</h2>
+        <p>
+          Este bloque sirve como ejemplo para probar cómo reacciona el efecto visual.
+        </p>
+      </article>
+
+      <article class="card">
+        <div class="icon">5</div>
+        <h2>Sección 5</h2>
+        <p>
+          Puedes crear tantas tarjetas como quieras y moverlas todas al mismo tiempo.
+        </p>
+      </article>
+
+      <article class="card">
+        <div class="icon">6</div>
+        <h2>Sección 6</h2>
+        <p>
+          Perfecto para flyers, landing pages, portfolios o pruebas de diseño.
+        </p>
+      </article>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
